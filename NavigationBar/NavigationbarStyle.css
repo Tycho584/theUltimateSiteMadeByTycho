@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+
+.Navbar{
+margin-top: 0;
+margin-left: 0;
+
+    /* background-color: rgba(245, 245, 245, 0.85); */
+    background-color: bisque;
+
+    width: 100vw;
+    height: 5.5vh;
+
+    display: grid;
+}
+
+.NavbarLogo{
+    grid-row: 1;
+    grid-column: 1;
+    text-align: center;
+}
+.NavbarLinks{
+    margin-top: 2vh;
+
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+}
+.NavbarSocials{
+    margin-top: 2vh;
+    margin-left: 1vw;
+
+    grid-row: 1;
+    grid-column: 3;
+    text-align: center;
+}

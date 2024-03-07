@@ -1,18 +1,96 @@
 *{
+    transition: 350ms;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: whitesmoke;
     margin: 0;
-    padding: 0;
-}
-
-.pictureOfMe:img{
-    overflow: hidden;
-}
-
-.pictureOfMe{
-    border-bottom: 3px solid blueviolet;
 }
 
 #whoAmITitelText{
     text-align: center;
+
     font-size: 200%;
 }
 
+.whoAmIContent{
+    display: grid;
+}
+
+.personalInformation:hover{
+    transform: scale(1.2); 
+}
+
+.personalInformation{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.personalTitle{
+    font-size: 130%;
+
+    border-bottom: 0.2vh solid darkslategray;
+}
+
+.personalText{
+    border-top: 0.2vh solid darkslategray;
+}
+
+.educationInformation{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.educationInformation:hover{
+    transform: scale(1.2);
+}
+
+.educationTitle{
+    font-size: 130%;
+
+    border-bottom: 0.2vh solid darkslategray;
+}
+
+.educationText{
+    border-top: 0.2vh solid darkslategray;
+}
+
+.gearInformation{
+    grid-row: 1;
+    grid-column: 3;
+
+}
+
+.gearInformation:hover{
+    transform: scale(1.2);
+}
+
+.gearTitle{
+    font-size: 130%;
+
+    border-bottom: 0.2vh solid darkslategray;
+}
+
+.gearText{
+    border-top: 0.2vh solid darkslategray;
+}
+
+.informationBox{
+    font-size: 130%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: wheat;
+    border: 0.4vh solid darkslategray;
+    border-radius: 1vw;
+
+    text-align: center;
+    color: darkslategrey;
+
+    margin-bottom: 1vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
