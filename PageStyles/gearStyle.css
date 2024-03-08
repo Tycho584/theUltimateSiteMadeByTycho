@@ -27,11 +27,37 @@ body{
 }
 
 .laptop{
+    display: grid;
+
     grid-row: 1;
     grid-column: 1;
 }
 
+.laptopPicture{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.laptopInformation{
+    margin-left: 1vh;
+
+    grid-row: 1;
+    grid-column: 2;
+}
+
 .phone{
+    display: grid;
+
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.phonePicture{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.phoneInformation{
     grid-row: 1;
     grid-column: 2;
 }
@@ -42,7 +68,6 @@ body{
     width: 20vw;
     height: 10vh;
 
-    text-align: center;
     color: whitesmoke;
 
     border: 0.1vh solid rgb(100, 100, 100);
@@ -57,7 +82,6 @@ body{
     width: 20vw;
     height: 10vh;
 
-    text-align: center;
     color: whitesmoke;
 
     border: 0.1vh solid rgb(100, 100, 100);
