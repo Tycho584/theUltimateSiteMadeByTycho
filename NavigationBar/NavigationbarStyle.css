@@ -3,10 +3,13 @@ body{
 }
 
 .Navbar{
-margin-top: 0;
-margin-left: 0;
+    z-index: 1000;
 
-    /* background-color: rgba(245, 245, 245, 0.85); */
+    color: whitesmoke;
+
+    margin-top: 0;
+    margin-left: 0;
+
     background-color: bisque;
 
     width: 100vw;

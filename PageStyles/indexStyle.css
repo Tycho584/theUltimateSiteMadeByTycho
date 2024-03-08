@@ -7,7 +7,7 @@ a{
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: rgb(50, 50, 50);
     margin: 0;
 }
 
@@ -15,19 +15,16 @@ body{
     text-align: center;
 
     font-size: 200%;
+    color: whitesmoke;
 }
 
 .whoAmIContent{
     display: grid;
 }
 
-.personalInformation:hover{
-    transform: scale(1.2); 
-}
-
 .personalInformation{
     grid-row: 1;
-    grid-column: 1;
+    grid-column : 1;
 }
 
 .personalTitle{
@@ -45,9 +42,6 @@ body{
     grid-column: 2;
 }
 
-.educationInformation:hover{
-    transform: scale(1.2);
-}
 
 .educationTitle{
     font-size: 130%;
@@ -62,11 +56,6 @@ body{
 .gearInformation{
     grid-row: 1;
     grid-column: 3;
-
-}
-
-.gearInformation:hover{
-    transform: scale(1.2);
 }
 
 .gearTitle{
@@ -93,4 +82,16 @@ body{
     margin-bottom: 1vw;
     margin-left: 3vw;
     margin-right: 3vw;
+}
+
+.gearInformation:hover{
+    transform: scale(1.2);
+}
+
+.educationInformation:hover{
+    transform: scale(1.2);
+}
+
+.personalInformation:hover{
+    transform: scale(1.2); 
 }

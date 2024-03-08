@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: rgb(50, 50, 50);
+}
+
+#gearPageTitleText{
+    text-align: center;
+    color: whitesmoke;
+
+    font-size: 200%;
+}
+
+.techGearInformation{
+    display: grid;
+}
+
+.techGearTitle{
+    text-align: center;
+    font-size: 130%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+#laptopTitle{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.laptop{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.phone{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.gearBoxesLeft{
+    margin-left: 28vw;
+
+    width: 20vw;
+    height: 10vh;
+
+    text-align: center;
+    color: whitesmoke;
+
+    border: 0.1vh solid rgb(100, 100, 100);
+    border-radius: 1vh;
+
+    background-color: rgb(25, 25, 25);
+}
+
+.gearBoxesRight{
+    margin-right: 28vw;
+
+    width: 20vw;
+    height: 10vh;
+
+    text-align: center;
+    color: whitesmoke;
+
+    border: 0.1vh solid rgb(100, 100, 100);
+    border-radius: 1vh;
+
+    background-color: rgb(25, 25, 25);
+}
