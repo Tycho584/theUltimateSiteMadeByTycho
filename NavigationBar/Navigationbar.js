@@ -1,4 +1,4 @@
-fetch("./Navigationbar.html")
+fetch("NavigationBar/Navigationbar.html")
   .then(response => {
     return response.text()
   })
