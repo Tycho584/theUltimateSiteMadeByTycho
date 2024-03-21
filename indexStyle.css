@@ -65,14 +65,14 @@ body{
 }
 
 .gearText{
-    border-top: 0.2vh solid darkslategray;
+    border-top: 0.2vh solid ;
 }
 
 .informationBox{
     font-size: 130%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    background-color: wheat;
+    background-color: rgb(245, 222, 180);
     border: 0.4vh solid darkslategray;
     border-radius: 1vw;
 
@@ -80,7 +80,7 @@ body{
     color: darkslategrey;
 
     width: 27vw;
-    height: 33vh;
+    height: 35vh;
 
     margin-bottom: 1vw;
     margin-left: 3vw;

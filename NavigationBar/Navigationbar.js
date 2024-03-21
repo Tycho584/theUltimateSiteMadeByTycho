@@ -1,7 +1,7 @@
 fetch("NavigationBar/Navigationbar.html")
-  .then(response => {
+.then(response => {
     return response.text()
-  })
-  .then(data => {
+})
+.then(data => {
     document.querySelector("navigationbar").innerHTML = data;
-  });
+});

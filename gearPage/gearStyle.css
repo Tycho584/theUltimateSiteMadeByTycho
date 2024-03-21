@@ -28,7 +28,6 @@ body{
 
 .laptop{
     display: grid;
-
     grid-row: 1;
     grid-column: 1;
 }
@@ -58,6 +57,51 @@ body{
 }
 
 .phoneInformation{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.PhotographyGear{
+    margin-top: 5vh;
+    display: grid;
+}
+
+.PhotographyGearTitle{
+    color: whitesmoke;
+    text-align: center;
+
+    font-size: 130%;
+}
+
+.MainCamera{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.MainCamerapicture{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.MainCameraInformation{
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 0.3vh;
+}
+
+.MainLens{
+    grid-row: 1;
+    grid-column: 2;
+    display: grid;
+}
+
+.MainLensPicture{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.MainLensInformation{
     grid-row: 1;
     grid-column: 2;
 }

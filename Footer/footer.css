@@ -1,0 +1,14 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+
+    height: 5.5vh;
+    width: 100vw;
+
+    background-color: rgb(75, 75, 75);
+}
+
+.linksToOtherWebsites{
+    color: whitesmoke;
+    text-align: center;
+}

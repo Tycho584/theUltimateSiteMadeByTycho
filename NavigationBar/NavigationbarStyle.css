@@ -1,16 +1,23 @@
 body{
     margin: 0;
+    margin-top: 5.5vh;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .Navbar{
-    z-index: 1000;
+    position: fixed;
+    top: 0;
 
     color: whitesmoke;
 
     margin-top: 0;
     margin-left: 0;
 
-    background-color: bisque;
+    background-color: rgb(75, 75, 75);
 
     width: 100vw;
     height: 5.5vh;
@@ -22,19 +29,28 @@ body{
     grid-row: 1;
     grid-column: 1;
     text-align: center;
+
+    color: black;
 }
 .NavbarLinks{
     margin-top: 2vh;
+    margin-left: 3vh;
 
     grid-row: 1;
     grid-column: 2;
+
     text-align: center;
+    word-spacing: 1vh;
 }
 .NavbarSocials{
     margin-top: 2vh;
     margin-left: 1vw;
+    padding-right: 2vh;
+    margin-top: 0.5vh;
+
+    word-spacing: 1vh;
 
     grid-row: 1;
     grid-column: 3;
-    text-align: center;
+    text-align: right;
 }
