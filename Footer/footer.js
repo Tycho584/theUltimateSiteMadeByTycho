@@ -1,4 +1,4 @@
-fetch("Footer/footer.html")
+fetch("/Footer/footer.html")
 .then(response => {
     return response.text()
 })
